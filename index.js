@@ -30,6 +30,7 @@ module.exports = function(delimiter) {
   }
 };
 
+
 mongoose.mtModel = function(name, schema, collectionName) {
   var extendPathWithTenantId, extendSchemaWithTenantId, model, modelName, multitenantSchemaPlugin, newSchema, origSchema, parts, pre, preModelName, precompile, split, tenantCollectionName, tenantId, tenantModelName, uniq, _i, _len;
   precompile = [];
