@@ -25,6 +25,7 @@ owl = require('owl-deepcopy');
 collectionDelimiter = '__';
 
 var x = {
+
     d: function (delimiter) {
         if (delimiter) {
             return collectionDelimiter = delimiter;
@@ -152,7 +153,7 @@ var x = {
         m.mtModel.goingToCompile = [];
 
     }
-}
+};
 
 module.exports = x;
 
